@@ -1,0 +1,39 @@
+body{
+    background-color: #181c27;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.paragraf-1{
+    color: white;
+    font-size: 20px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.paragraf-2{
+    color: #00eaff;
+    font-weight: 800;
+    font-size: 57px;
+}
+.paragraf-3{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+.fill{
+    display: flex;
+    justify-content: space-between;
+}
