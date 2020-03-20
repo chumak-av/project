@@ -4,16 +4,22 @@ body{
 .about{
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: 90%;
+    padding: 10px;
 }
 .paragraf-1{
     color: white;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 .block{
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 1px 1px 60px 1px #304f79;
 }
 .text{
     display: flex;
@@ -26,14 +32,89 @@ body{
 .paragraf-2{
     color: #00eaff;
     font-weight: 800;
-    font-size: 57px;
+    font-size: 58px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 .paragraf-3{
     color: white;
     font-size: 35px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 .fill{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.paragraf-4 {
+font-size: 29px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #f9ae23;
+font-family: 'Montserrat', sans-serif;
+padding: 10px;
+}
+.paragraf-5{
+font-size: 49px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #f9ae23;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding: 10px;
+}
+.text-1{
+font-size: 33px;
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+padding: 10px;
+}
+.text-2{
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+padding: 10px;
+}
+.input{
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+    color: #a2a2a2;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    background-color: #ff6b08;
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    box-shadow: 1px 1px 20px 1px #fdbe93;
+    border: #ff6b08;
+}
+.logo{
+    padding: 20px;
+}
+
+.after{
+    font-size: 17px;
+    line-height: 37px;
+    color: #5d6066;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
