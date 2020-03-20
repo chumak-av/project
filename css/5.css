@@ -1,0 +1,72 @@
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+.nameofit {
+    margin-left: 390px;
+    margin-top: 105px;
+}
+.awards {
+    margin-left: 390px;
+}
+.oon {
+    display: inline-flex;
+    margin-left: 390px;
+    flex-direction: column;
+    max-width: 375px;
+}
+.project {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: inline-flex;
+}
+.company {
+    display: inline-flex;
+    
+}
+.awards {
+ display: flex;
+ margin-right: 400px;
+ margin-bottom: 215px;
+}
+.flexio {
+display: flex;
+
+}
+.textios1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+}
+.textios2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 285px;
+    margin-left: 50px;
+}
+.textios3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin-left: 75px;
+}
+.projects {
+margin-left: 390px;
+margin-bottom: 45px;
+margin-top: 60px;
+}
+.pictio {
+
+}
