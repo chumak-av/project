@@ -1,0 +1,114 @@
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.answer {
+    display: flex;
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: #1b202a;
+
+}
+.everything {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+.dopinf {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.predlog {
+    display: flex;
+    justify-content: flex-start;
+}
+ul.pluses {
+    list-style-type: square;
+    
+}
+.card3 {
+    background-image: Url(img3/map.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 50px;
+    margin-top: 130px;
+    
+}
+.pluses2 {
+    margin-top: 25px;
+}
+.dopinf {
+    margin-top: 625px;
+    margin-right: 180px;
+}
+.stat {
+    margin-bottom: 40px;
+    margin-left: 135px;
+    margin-right: 130px;
+}
+.inform {
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #222222;
+}
+.cardborder {
+    margin-left: 390px;
+    max-width: 700px;
+    height: 540px
+}
+.StatMoney {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    max-width: 400px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1b202a;
+}
+.facts {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 50px;
+    max-width: 190px;
+    font-family: 'Montserrat', sans-serif;
+}
+.number {
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+}
+.TextNum {
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width:768px) {
+    .dopinf {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap:wrap ;
+    }
+
+}
