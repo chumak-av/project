@@ -154,3 +154,106 @@ body {
     flex-direction: column;
     width: 60%;
 }
+@media(max-width:768px){
+
+.fill{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.text-1{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.text-2{
+    text-align: center;
+}
+.input{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.button{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.paragraf-1{
+    font-size: 14px;
+}
+.paragraf-2{
+    font-size: 40px;
+}
+.paragraf-3{
+    font-size: 18px;
+}
+.paragraf-4{
+    font-size: 18px;
+}
+.paragraf-5{
+    font-size: 40px;
+}
+.text-1{
+    font-size: 24px;
+}
+.text-2{
+    font-size: 13px;
+}
+}
+@media(max-width:320px){
+    .input{
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 40px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    .paragraf-1{
+        font-size: 14px;
+    }
+    .paragraf-2{
+        font-size: 20px;
+    }
+    .paragraf-3{
+        font-size: 14px;
+    }
+    .paragraf-4{
+        font-size: 14px;
+    }
+    .paragraf-5{
+        font-size: 20px;
+    }
+    .text-1{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .text-2{
+        font-size: 13px;
+    }
+    .button{
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .after{
+        font-size: 13px;
+    }
+}
