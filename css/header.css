@@ -1,41 +1,19 @@
-body {
-    overflow-x: hidden;
+body{
+    background-color: #181c27;
 }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.background-header {
-    background-image: url(../img/img/fe11-desktop.png);
-    height: 100%;
-    width: 100%;
-}
-
-.about {
+.about{
     display: flex;
     flex-direction: column;
     width: 90%;
     padding: 10px;
 }
-
-.paragraf-1 {
+.paragraf-1{
     color: white;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
-
-.block {
+.block{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -43,78 +21,67 @@ body {
     padding: 30px;
     box-shadow: 1px 1px 60px 1px #304f79;
 }
-
-.text {
+.text{
     display: flex;
     flex-direction: column;
 }
-
-.contact {
+.contact{
     display: flex;
     flex-direction: column;
 }
-
-.paragraf-2 {
+.paragraf-2{
     color: #00eaff;
     font-weight: 800;
     font-size: 58px;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
-
-.paragraf-3 {
+.paragraf-3{
     color: white;
     font-size: 35px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
-
-.fill {
+.fill{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 10px;
-    padding-bottom: 88px;
 }
-
 .paragraf-4 {
-    font-size: 29px;
-    letter-spacing: -1px;
-    line-height: 75px;
-    color: #f9ae23;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+font-size: 29px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #f9ae23;
+font-family: 'Montserrat', sans-serif;
+padding: 10px;
 }
-
-.paragraf-5 {
-    font-size: 49px;
-    letter-spacing: -1px;
-    line-height: 75px;
-    color: #f9ae23;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding: 10px;
+.paragraf-5{
+font-size: 49px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #f9ae23;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding: 10px;
 }
-
-.text-1 {
-    font-size: 33px;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding: 10px;
+.text-1{
+font-size: 33px;
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+padding: 10px;
 }
-
-.text-2 {
-    font-size: 20px;
-    line-height: 28px;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding: 10px;
+.text-2{
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+padding: 10px;
 }
-
-.input {
+.input{
     height: 60px;
     padding: 10px;
     margin: 20px;
@@ -123,8 +90,7 @@ body {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
-
-.button {
+.button{
     background-color: #ff6b08;
     height: 60px;
     padding: 10px;
@@ -136,124 +102,19 @@ body {
     box-shadow: 1px 1px 20px 1px #fdbe93;
     border: #ff6b08;
 }
-
-.logo {
+.logo{
     padding: 20px;
 }
 
-.after {
+.after{
     font-size: 17px;
     line-height: 37px;
     color: #5d6066;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
-.form {
+.form{
     display: flex;
     flex-direction: column;
     width: 60%;
-}
-@media(max-width:768px){
-
-.fill{
-    display: flex;
-    flex-direction: column;
-}
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.block{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.text-1{
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.text-2{
-    text-align: center;
-}
-.input{
-    margin-left: 60px;
-    margin-right: 60px;
-    height: 40px;
-    font-size: 14px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-.button{
-    margin-left: 60px;
-    margin-right: 60px;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 12px;
-}
-.paragraf-1{
-    font-size: 14px;
-}
-.paragraf-2{
-    font-size: 40px;
-}
-.paragraf-3{
-    font-size: 18px;
-}
-.paragraf-4{
-    font-size: 18px;
-}
-.paragraf-5{
-    font-size: 40px;
-}
-.text-1{
-    font-size: 24px;
-}
-.text-2{
-    font-size: 13px;
-}
-}
-@media(max-width:320px){
-    .input{
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 40px;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        font-size: 14px;
-    }
-    .paragraf-1{
-        font-size: 14px;
-    }
-    .paragraf-2{
-        font-size: 20px;
-    }
-    .paragraf-3{
-        font-size: 14px;
-    }
-    .paragraf-4{
-        font-size: 14px;
-    }
-    .paragraf-5{
-        font-size: 20px;
-    }
-    .text-1{
-        font-size: 16px;
-        padding: 5px;
-    }
-    .text-2{
-        font-size: 13px;
-    }
-    .button{
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 40px;
-        font-size: 16px;
-    }
-    .after{
-        font-size: 13px;
-    }
 }

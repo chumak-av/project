@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.footer_background{
+
+}
+
+.button-line{
+
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #00eaff;
+    font-family: "Acrom";
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.Big-line{
+    background-color: #00eaff;
+    height: 2px;
+    width: 630px;
+}
