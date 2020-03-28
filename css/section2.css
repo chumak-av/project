@@ -8,14 +8,9 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-    background-color: rgb(237, 240, 242);
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.line {
+.line-section2 {
     background-color: #00eaff;
     height: 2px;
     width: 60px;
@@ -27,42 +22,42 @@ body {
     background-color: rgb(237, 240, 242);
 }
 
-.cards {
+.cards-section2 {
     background-color: rgb(237, 240, 242);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.card {
+.card-section2 {
     width: 350px;
     height: 275px;
     background-color: #ffffff;
     padding: 45px 30px;
-    box-shadow: -20px 20px 1px 0px  rgba(221, 223, 225);
+    box-shadow: -20px 20px 1px 0px rgba(221, 223, 225);
 }
 
-.card::before {
+.card-section2::before {
     display: block;
     content: "";
     position: absolute;
     left: -20px;
     top: 20px;
-
     background-color: rgba(221, 223, 225);
     z-index: 1;
 }
 
-.button {
+.button-section2 {
     width: 813px;
     height: 109px;
     filter: drop-shadow(0px 2px 5px rgba(255, 107, 8, 0.59));
     background-color: #ff702a;
 }
 
-.h2 {
-    width: 1046px;
-    height: 261px;
+.h2-section2 {
+    width: 90%;
+    /* height: 261px; */
+    margin-bottom: 115px;
     font-size: 48px;
     letter-spacing: -2px;
     line-height: 60px;
@@ -70,49 +65,51 @@ body {
     font-weight: bold;
     text-align: center;
     display: flex;
+    padding-top: 90px;
 }
 
-.text {
+.text-section2 {
     display: flex;
     justify-content: center;
 }
 
-.button_text {
+.button_text-section2 {
     font-size: 25px;
     color: #ffffff;
     font-weight: 800;
 }
 
-.card_text {
+.card_text-section2 {
     color: #222222;
     line-height: 2;
 }
 
-.button_location {
+.button_location-section2 {
     display: flex;
     justify-content: center;
     padding-top: 75px;
+    padding-bottom: 96px;
 }
 
-.numbers {
+.numbers-section2 {
     font-size: 150px;
     color: #fbfcfb;
     font-weight: 700;
     text-align: right;
 }
 
-.card::after {
+.card-section2::after {
     display: block;
     content: attr(data-number);
     position: absolute;
     right: -24px;
     top: -110px;
     z-index: -1;
-    color:rgb(251, 252, 240) ;
+    color: rgb(251, 252, 240);
     font-weight: bold;
     font-size: 150px;
 }
 
-.bold {
+.bold-section2 {
     font-weight: bold;
 }

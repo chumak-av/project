@@ -10,13 +10,9 @@
     max-width: 1200px;
 }
 
+.footer_background {}
 
-.footer_background{
-
-}
-
-.button-line{
-
+.button-line {
     font-size: 60px;
     letter-spacing: 1px;
     line-height: 60px;
@@ -25,7 +21,8 @@
     font-weight: 800;
     text-transform: uppercase;
 }
-.Big-line{
+
+.Big-line {
     background-color: #00eaff;
     height: 2px;
     width: 630px;
