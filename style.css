@@ -1,0 +1,161 @@
+.preview{
+    margin-left: 12%;
+    padding-top: 35px;
+    width: 500px ;
+    height: 200px;
+    font-family: 'Lato', sans-serif;
+   float:left;
+   transition: all 0.7s ease;
+ }   
+ .contentpreview{
+max-width: 1200px;
+ }
+ .blocktext{
+  padding: 20px;
+  width: 420px;
+ }
+ .text{
+  margin-right: 10%;
+   padding-top: 35px;
+   font-family: 'Baloo 2', cursive;
+   height: 52px;
+   width: 454px;
+   position:absolute;
+   top:0;
+   right:0;
+   transition: all 0.7s ease;
+ }
+ @media (min-width: 1200px) {
+  .preview {
+      margin-left: 5%;
+      padding-top: 35px;
+      width: 350px;
+      height: 200px;
+      font-family: 'Lato', sans-serif;
+      float: left;
+      transition: all 0.7s ease;
+  }
+  .text{
+  margin-right: 10%;
+  padding-top: 5%;
+  font-family: 'Baloo 2', cursive;
+  height: 52px;
+  width: 356px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.7s ease;
+}
+ }
+ @media (max-width: 1024px) {
+  .text {
+    margin-right: 5%;
+    padding-top: 5%;
+    font-family: 'Baloo 2', cursive;
+    height: 52px;
+    width: 55%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+.preview {
+  margin-left: 5%;
+  padding-top: 35px;
+  width: 350px;
+  height: 200px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  transition: all 0.7s ease;
+}
+ }
+ @media (max-width: 930px) {
+  .text {
+    margin-right: 15%;
+    padding-top: 230px;
+    height: 52px;
+    width: 70%;
+    top: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+.preview {
+  margin-left: 5%;
+  padding-top: 20px;
+  width: 95%;
+  height: 200px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  transition: all 0.7s ease;
+}
+}
+@media (min-width: 868px) {
+  .text {
+    margin-right: 5%;
+    padding-top: 5%;
+    font-family: 'Baloo 2', cursive;
+    height: 52px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+.preview {
+  margin-left: 5%;
+  padding-top: 35px;
+  width: 350px;
+  height: 200px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  transition: all 0.7s ease;
+}
+}
+@media (min-width: 768px) {
+  .text {
+    margin-right: 10%;
+    padding-top: 235px;
+    font-family: 'Baloo 2', cursive;
+    height: 52px;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+}
+@media (min-width: 576px) {
+  .preview {
+    margin-left: 30%;
+    padding-top: 35px;
+    width: 45%;
+    height: 200px;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    transition: all 0.7s ease;
+}
+}
+@media (min-width: 476px) {
+  .text {
+    margin-right: 5%;
+    padding-top: 5%;
+    font-family: 'Baloo 2', cursive;
+    height: 52px;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.7s ease;
+}
+.preview {
+  margin-left: 5%;
+  padding-top: 35px;
+  width: 40%;
+  height: 200px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  transition: all 0.7s ease;
+}
+
+
+}
