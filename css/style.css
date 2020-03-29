@@ -34,6 +34,7 @@ display: flex;
  }
  .group{
   list-style-type: none;
+  padding-top: 5%;
  }
  @media (min-width: 1200px) {
   .preview {
