@@ -1,0 +1,91 @@
+.wrapper {
+display: flex;
+align-items: flex-end;
+}
+.block3 {
+display: flex;
+flex-direction: column;
+max-width: 200px;
+margin-right: 5px;
+margin-bottom: 30px;
+}
+.blocks3 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.left-info {
+    max-width: 770px;
+    margin-top: 50px;
+    background-image: Url(img3/map.png);
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Question {
+    max-width: 440px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 60px;
+}
+.works3 {
+    display: flex;
+}
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 25px;
+    font-weight: 800;
+}
+.income{
+    margin-bottom: 20px;
+}
+.work3 {
+    max-width: 300px;
+}
+.bluesky {
+    color: #00eaff;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.plus {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: square;
+    max-width: 500px;
+}
+.right-fact {
+    margin-bottom: 25px;
+    max-width: 690px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 60px;
+}
+.bottomblocks {
+    max-width: 310px;
+}
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;  
+}
+
